@@ -26,13 +26,13 @@ namespace UsersApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            //services.AddDbContext<UsersContext>(options =>
-            //{
-            //    var ev = Environment.GetEnvironmentVariable("DatabaseServer");
-            //    var connectionString = Configuration.GetConnectionString("DefaultConnection")
-            //                                       .Replace("PARAM_DATABASE_SERVER", ev);
-            //    options.UseSqlServer(connectionString);
-            //});
+            services.AddDbContext<UsersContext>(options =>
+            {
+                var ev = Environment.GetEnvironmentVariable("DatabaseServer");
+                var connectionString = Configuration.GetConnectionString("DefaultConnection")
+                                                   .Replace("PARAM_DATABASE_SERVER", ev);
+                options.UseSqlServer(connectionString);
+           });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

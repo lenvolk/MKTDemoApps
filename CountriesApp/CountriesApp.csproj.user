@@ -8,7 +8,7 @@
     <WebStackScaffolding_IsPartialViewSelected>False</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>False</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile />
-    <NameOfLastUsedPublishProfile>D:\Coding\VisualStudio\HackApps\CountriesApp\CountriesApp\Properties\PublishProfiles\hademo-webapp-westus - Web Deploy1.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Temp\MeetMakalToday\MKTDemoApps\CountriesApp\Properties\PublishProfiles\lvhademo-webapp-eastus - Web Deploy1.pubxml</NameOfLastUsedPublishProfile>
     <ActiveDebugProfile>UsersApp</ActiveDebugProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
